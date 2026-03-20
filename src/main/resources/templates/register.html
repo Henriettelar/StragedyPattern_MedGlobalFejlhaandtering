@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+</head>
+<body>
+<h1>Create user</h1>
+
+<div class="container">
+    <form action="/submit" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter username">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Enter email">
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password">
+        <br><br>
+        <label for="password1">Repeat password:</label>
+        <input type="password" id="password1" name="password1" placeholder="Enter password">
+
+        <br><br><br>
+        <input type="radio" id="simple" name="mode" value="simple" required>
+        <label for="simple">Simple</label>
+        <input type="radio" id="strict" name="mode" value="strict" required>
+        <label for="strict">Strict</label>
+
+        <br><br>
+
+        <button type="submit">Create user</button>
+
+    </form>
+</div>
+
+</body>
+</html>
