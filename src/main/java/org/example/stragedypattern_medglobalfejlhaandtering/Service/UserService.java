@@ -16,8 +16,5 @@ public class UserService {
         }
 
         strategy.validate(userModel);
-
-
-        //returner WIP
     }
 }
